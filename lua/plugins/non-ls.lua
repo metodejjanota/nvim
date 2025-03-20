@@ -5,7 +5,6 @@ return {
         null_ls.setup({
             source = {
                 null_ls.builtins.formatting.stylua,
-
             }
         })
         vim.keymap.set('n', '<leader>gf', vim.lsp.buf.format, {})
